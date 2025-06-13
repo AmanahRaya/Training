@@ -31,16 +31,39 @@
   </header>
 
 <!-- Navigation -->
-  <nav class="bg-blue-700 text-white text-sm">
-    <div class="max-w-7xl mx-auto px-4 flex flex-wrap py-3 space-x-4">
-      <a href="https://amanahraya.github.io/Training/index.html" class="hover:underline">Utama</a>
-      <a href="https://amanahraya.github.io/Training/Profile/profile.html font-bold underline" class="hover:underline ">Unit Profile</a>
+<nav class="bg-blue-700 text-white text-sm">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+    <!-- Logo / Title -->
+    <div class="text-lg font-semibold">AmanahRaya</div>
+
+    <!-- Hamburger Icon (Mobile) -->
+    <button id="menu-toggle" class="md:hidden focus:outline-none">
+      <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path d="M3 6h14M3 10h14M3 14h14" />
+      </svg>
+    </button>
+
+    <!-- Navigation Links (Desktop) -->
+    <div class="hidden md:flex space-x-4" id="menu">
+      <a href="https://amanahraya.github.io/Training/index.html" class="hover:underline">Home</a>
+      <a href="https://amanahraya.github.io/Training/Profile/profile.html" class="hover:underline">Unit Profile</a>
       <a href="https://amanahraya.github.io/Training/Program/program.html" class="hover:underline">Training Programmes</a>
       <a href="https://amanahraya.github.io/Training/Intern/intern.html" class="hover:underline">Industrial Training</a>
       <a href="https://amanahraya.github.io/Training/Galeri/galeri.html" class="hover:underline">Gallery</a>
       <a href="https://amanahraya.github.io/Training/Hubungi/hubungi.html" class="hover:underline">Contact Us</a>
     </div>
-  </nav>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="md:hidden px-4 pb-3 hidden flex-col space-y-2" id="mobile-menu">
+    <a href="https://amanahraya.github.io/Training/index.html" class="block hover:underline">Home</a>
+    <a href="https://amanahraya.github.io/Training/Profile/profile.html" class="block hover:underline">Unit Profile</a>
+    <a href="https://amanahraya.github.io/Training/Program/program.html" class="block hover:underline">Training Programmes</a>
+    <a href="https://amanahraya.github.io/Training/Intern/intern.html" class="block hover:underline">Industrial Training</a>
+    <a href="https://amanahraya.github.io/Training/Galeri/galeri.html" class="block hover:underline">Gallery</a>
+    <a href="https://amanahraya.github.io/Training/Hubungi/hubungi.html" class="block hover:underline">Contact Us</a>
+  </div>
+</nav>
 
   <!-- Main Content -->
   <main>
